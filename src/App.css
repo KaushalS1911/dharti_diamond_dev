@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 0%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-next, .slick-prev {
+  font-size: 100px;
+  line-height: 0;
+  position: absolute;
+  top: 0%;
+  display: block;
+  width: 50px;
+  height: 60px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
