@@ -68,3 +68,49 @@
   outline: none;
   background: transparent;
 }
+/* ================================liner2=========== */
+
+button {
+  color: #000;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  padding: 1em 2em;
+  position: relative;
+  background: none;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(.98);
+  box-shadow: .1px .1px 2px #000;
+}
+button span {
+  position: absolute;
+  background: #000;
+  transition: .5s;
+  box-shadow: 1px 1px 20px #000;
+}
+button span:nth-child(1) {
+  top: -7px;
+  left: 0;
+  width: 2px;
+  height: 103%;
+}
+button span:nth-child(2) {
+  top: 1px;
+  left: -9px;
+  width: 27%;
+  height:2px;
+}
+button span:nth-child(3) {
+  bottom: -9;
+  right: 3px;
+  width: 2px;
+  height: 97%;
+}
+button span:nth-child(4) {
+  bottom: -5px;
+  right: -6px;
+  width: 30%;
+  height:2px;
+}

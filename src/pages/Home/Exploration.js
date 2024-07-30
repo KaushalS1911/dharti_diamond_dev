@@ -21,7 +21,11 @@ function Exploration() {
             >
               <Grid item xs={9}>
                 <Box sx={{ color: "white" }}>
-                  <Typography
+                 
+
+                  <Box sx={{ textAlign: "center",marginBottom:"70px"}}>
+            <button class="border-btn" style={{fontSize:"22px", fontWeight:"600"}}>
+            <Typography
                     sx={{
                       fontWeight: "500",
                       fontSize: "20px",
@@ -30,6 +34,13 @@ function Exploration() {
                   >
                     An Epic Adventure Of a Diamond
                   </Typography>
+                <span class="b1"></span>
+                <span class="b2"></span>
+                <span class="b3"></span>
+                <span class="b4"></span>
+            </button>
+            </Box>
+
                   <Typography
                     sx={{
                       paddingTop: "17px",
@@ -301,7 +312,7 @@ function Exploration() {
                 md={6}
                 sm={12}
                 xs={12}
-                sx={{ order: { lg: "1", md: "1", sm: "2", xs: "2" } }}
+                sx={{ order: { lg: "1", md: "1", sm: "2", xs: "2" }}}
               >
                 <Box>
                   <img src={cutting} alt="" style={{ width: "100%" }} />
@@ -318,7 +329,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ textAlign: "start" ,padding:"90px"}}>
+                <Box sx={{ textAlign: "start" ,padding:"90px",padding:{xs:"none"}}}>
                   <div class="border-el-btn buttonBorder"
                   >
                     <div
@@ -394,7 +405,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ textAlign: "start" ,padding:"100px"}}>
+                <Box sx={{ textAlign: "start" ,padding:"100px",padding:{xs:"none"}}}>
                   <div class="border-el-btn buttonBorder"
                   >
                     <div
@@ -468,7 +479,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ textAlign: "start" ,padding:"100px"}}>
+                <Box sx={{ textAlign: "start" ,padding:"100px",padding:{xs:"none"}}}>
                   <div class="border-el-btn buttonBorder"
                   >
                     <div

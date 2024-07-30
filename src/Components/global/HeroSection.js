@@ -13,6 +13,7 @@ import d4 from "../../assets/images/global/Diamond4.png";
 import d5 from "../../assets/images/global/Diamond5.png";
 import d6 from "../../assets/images/global/Diamond6.png";
 
+
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -20,13 +21,14 @@ function NextArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
+        display: "none",
         background: "#5c687b",
         borderRadius: "50%",
-        width: "40px",
-        height: "40px",
+        width: "20px",
+        height: "20px",
+        textAlign:"center",
         zIndex: 1,
-        right: "10px",
+        right: "50px",
         top: "50%",
         transform: "translateY(-50%)",
       }}
@@ -42,11 +44,11 @@ function PrevArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
+        display: "none",
         background: "#5c687b",
         borderRadius: "50%",
-        width: "40px",
-        height: "40px",
+        width: "20px",
+        height: "20px",
         zIndex: 1,
         left: "10px",
         top: "50%",
@@ -59,7 +61,7 @@ function PrevArrow(props) {
 
 function HeroSection() {
   const slider = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -69,6 +71,7 @@ function HeroSection() {
   };
 
   const SliderSection = [
+
     {
       img: d1,
       Dimond_Title1: "The Art and",
@@ -77,19 +80,36 @@ function HeroSection() {
     },
     {
       img: d2,
+      Dimond_Title1: "The Art and",
+      Dimond_Title2: "Brilliance",
+      Dimond_Title3: "of Diamond",
     },
     {
       img: d3,
+      Dimond_Title1: "The Art and",
+      Dimond_Title2: "Brilliance",
+      Dimond_Title3: "of Diamond",
     },
     {
       img: d4,
+      Dimond_Title1: "The Art and",
+      Dimond_Title2: "Brilliance",
+      Dimond_Title3: "of Diamond",
     },
     {
       img: d5,
+      Dimond_Title1: "The Art and",
+      Dimond_Title2: "Brilliance",
+      Dimond_Title3: "of Diamond",
     },
+
     {
       img: d6,
+      Dimond_Title1: "The Art and",
+      Dimond_Title2: "Brilliance",
+      Dimond_Title3: "of Diamond",
     },
+
   ];
 
   return (
@@ -98,12 +118,17 @@ function HeroSection() {
         {SliderSection.map((item, index) => (
           <Box key={index} sx={{ position: "relative" }}>
             <img src={item.img} alt="" style={{ width: "100%" }} />
-            <Box sx={{ position: "absolute", top: "25%", left: "20%", textAlign: "start" }}>
+
+            {/* =================== */}
+            
+
+
+            <Box sx={{ position: "absolute", top: "27%", left: "20%", textAlign: "start" }}>
               <Typography sx={{ color: "white", fontSize: "35px" }}>{item.Dimond_Title1}</Typography>
               <Typography sx={{ color: "white", fontSize: "35px" }}>{item.Dimond_Title2}</Typography>
               <Typography sx={{ color: "white", fontSize: "35px" }}>{item.Dimond_Title3}</Typography>
             </Box>
-          </Box>
+          </Box>  
         ))}
       </Slider>
     </Box>
@@ -111,3 +136,4 @@ function HeroSection() {
 }
 
 export default HeroSection;
+  

@@ -13,7 +13,7 @@ function Manufature() {
     <div>
       <Box>
       <Container maxWidth={"xl"} >
-      <Box sx={{ marginTop: "100px", paddingBottom:"60px"}}>
+      <Box sx={{ marginTop: "20px", paddingBottom:"60px"}}>
         <Box
           sx={{
             backgroundImage: `url(${backdiamond})`,
@@ -48,6 +48,17 @@ function Manufature() {
               />
             </Typography>
           </Box>
+
+          <Box sx={{ textAlign: "center",marginBottom:"70px"}}>
+            <button class="border-el-btn" style={{fontSize:"22px", fontWeight:"600"}}>
+Manufature & Explore
+                <span class="b1"></span>
+                <span class="b2"></span>
+                <span class="b3"></span>
+                <span class="b4"></span>
+            </button>
+            </Box>
+
           <Box sx={{ width: "100%" }}>
             <Typography sx={{ color: "#73829a" }} fontSize={"12px"}>
               Dharti Diamonds is a multifaceted organisation for diamond and

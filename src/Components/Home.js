@@ -1,7 +1,9 @@
 import React from 'react'
 import Manufature from '../pages/Home/Manufature'
 import Exploration from '../pages/Home/Exploration'
-import Pillars from '../pages/Home/Pillars'
+import Letest from '../pages/Home/Letest'
+import Round_diamond from '../pages/Home/Round_diamond'
+import Footer from './global/Footer'
 
 
 function Home() {
@@ -9,7 +11,10 @@ function Home() {
     <div>
       <Manufature/>
       <Exploration/>
-      <Pillars/>
+     
+      <Letest/>
+      <Round_diamond/>
+      <Footer/>
      
     </div>
   )
