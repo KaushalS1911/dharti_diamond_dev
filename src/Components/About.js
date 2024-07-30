@@ -4,15 +4,21 @@ import AboutSection3 from '../Pages/About/AboutSection3'
 import AboutSection4 from '../Pages/About/AboutSection4'
 import AboutSection5 from '../Pages/About/AboutSection5'
 import AboutSection6 from '../Pages/About/AboutSection6'
+import AboutSection7 from '../Pages/About/AboutSection7'
+import AboutSection8 from '../Pages/About/AboutSection8'
+import AboutSection9 from '../Pages/About/AboutSection9'
 
 function About() {
   return (
     <div>
-        <AboutSection2/>
-        <AboutSection3/>
-        <AboutSection4/>
-        <AboutSection5/>
-        <AboutSection6/>
+      <AboutSection2 />
+      <AboutSection3 />
+      <AboutSection4 />
+      <AboutSection5 />
+      <AboutSection6 />
+      <AboutSection7 />
+      <AboutSection8 />
+      <AboutSection9 />
     </div>
   )
 }

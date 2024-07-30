@@ -11,11 +11,21 @@ function AboutSection3() {
         <div>
             <Box sx={{ backgroundColor: "#2c3440", color: "#fff", paddingBottom: "100px", margin: { lg: "30px 0 0 0", md: "40px 0 0 0 ", sm: "40px 0 0 0", xs: "40px 0 0 0" } }}>
                 {/* <Container> */}
-                <Box sx={{ padding: "60px 0 0 0" }}>
+                {/* <Box sx={{ padding: "60px 0 0 0" }}>
                     <Typography sx={{ textAlign: "center", fontWeight: "600", fontSize: "23px" }}>
                         Our Values Define Our Action
                     </Typography>
+                </Box> */}
+                <Box sx={{ textAlign: "center", padding: "60px 0 0 0" }}>
+                    <button class="border-el-btn" style={{ fontSize: "23px", fontWeight: "600", color: "#fff" }}>
+                        Our Values Define Our Action
+                        <span class="b1"></span>
+                        <span class="b2"></span>
+                        <span class="b3"></span>
+                        <span class="b4"></span>
+                    </button>
                 </Box>
+
                 <Box sx={{ textAlign: "end" }}>
                     <img src={halfStar} alt="" style={{ width: "3%" }} />
                 </Box>
@@ -33,9 +43,10 @@ function AboutSection3() {
                         </Box>
                     </Box>
                 </Box>
+                
                 <Box sx={{ display: { lg: "none", md: "block", sm: "block" } }}>
                     <Box sx={{ justifyContent: "center", display: "flex", alignItems: "center" }}>
-                        <Box sx={{ border: "1px solid #c5d1e4", backgroundColor: "#c5d1e4", color: "#000", padding: "35px 20px ", width: "55%", }}>
+                        <Box sx={{ border: "1px solid #c5d1e4", backgroundColor: "#c5d1e4", color: "#000", padding: "35px 20px ", width: "60%", }}>
                             <Typography sx={{ fontFamily: "Poppins", fontSize: "22px", fontWeight: "600" }}>Our Mission</Typography>
                             <Typography sx={{ fontSize: "14px", color: "#000", margin: "14px 0 0 0", lineHeight: "25px" }}>Deliver “The Kiran Experience” to our Global Clientele through an unmatched bouquet of products and services of the highest quality, backed by the assurance of our world class manufacturing infrastructure, continuous appraisal and consistent innovation.</Typography>
                         </Box>
@@ -45,7 +56,7 @@ function AboutSection3() {
                 <Box sx={{ justifyContent: "center", display: "flex", alignItems: "center", padding: { lg: "55px 0", md: "20px 0", sm: "20px", xs: "20px 0" } }}>
                     <Box>
                         <Box sx={{ position: "relative" }}>
-                            <img src={heroImg2} alt="" style={{ width: "60%", transform: "translateX(50%)" }} />
+                            <img src={heroImg2} alt="" style={{ width: "60%", transform: "translateX(44%)" }} />
                             <Box sx={{ position: "absolute", top: "51%", right: "32%", display: { lg: "block", md: "none", sm: "none", xs: "none" } }}>
                                 <Box sx={{ border: "1px solid #c5d1e4", backgroundColor: "#c5d1e4", color: "#000", padding: "20px 20px ", width: "70%" }}>
                                     <Typography sx={{ fontFamily: "Poppins", fontSize: "22px", fontWeight: "600" }}>Our Vision</Typography>
@@ -73,15 +84,15 @@ function AboutSection3() {
                                 <img src={star6} alt="" style={{ width: "65%" }} />
                             </Box>
                         </Box>
-
                     </Box>
                 </Box>
+
                 <Box sx={{ display: { lg: "none", md: "block", sm: "block" } }}>
                     <Box sx={{ justifyContent: "center", display: "flex", alignItems: "center" }}>
-                        <Box sx={{ border: "1px solid #c5d1e4", backgroundColor: "#c5d1e4", color: "#000", padding: "20px 20px", width: "50%" }}>
+                        <Box sx={{ border: "1px solid #c5d1e4", backgroundColor: "#c5d1e4", color: "#000", padding: "20px 20px" }}>
                             <Typography sx={{ fontFamily: "Poppins", fontSize: "22px", fontWeight: "600" }}>Our Vision</Typography>
                             <Typography sx={{ fontSize: "15px", color: "#000", margin: "14px 0 0 0" }}>To be the preferred diamantaire to the world by embracing the core values of :</Typography>
-                            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+                            {/* <Box sx={{ display: { lg: "flex", md: "flex", sm: "block", xs: "block" }, justifyContent: "space-between" }}>
                                 <Box sx={{ margin: "10px 0 0 0" }}>
                                     <Typography sx={{ fontSize: "12px", lineHeight: "24px" }}><FiberManualRecordIcon sx={{ fontSize: "8px", marginRight: "5px" }}></FiberManualRecordIcon>PASSION</Typography>
                                     <Typography sx={{ fontSize: "12px", lineHeight: "24px" }}><FiberManualRecordIcon sx={{ fontSize: "8px", marginRight: "5px" }}></FiberManualRecordIcon>PARTNERSHIP</Typography>
@@ -96,7 +107,7 @@ function AboutSection3() {
                                     <Typography sx={{ fontSize: "14px", lineHeight: "24px" }}>Add value blending skills and technology</Typography>
                                     <Typography sx={{ fontSize: "14px", lineHeight: "24px" }}>Uphold ethics to exce</Typography>
                                 </Box>
-                            </Box>
+                            </Box> */}
                         </Box>
                     </Box>
                 </Box>

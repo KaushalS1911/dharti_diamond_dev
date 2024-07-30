@@ -18,10 +18,10 @@ function AboutSection5() {
         const { onClick } = props;
         return (
             <div
-                style={{ position: "absolute", top: "50%", right: "30px", transform: "translateX(250%)" }}
+                style={{ position: "absolute", top: "50%", right: "30px", transform: "translateX(300%)" }}
                 onClick={onClick}
             >
-                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "20px", padding: "4px" }} />
+                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "25px", padding: "4px", display: { lg: "block", md: "block", sm: "none", sx: "none" } }} />
             </div>
         );
     };
@@ -30,10 +30,10 @@ function AboutSection5() {
         const { onClick } = props;
         return (
             <div
-                style={{ position: "absolute", top: "50%", left: "0px", transform: "translateX(-79%)" }}
+                style={{ position: "absolute", top: "50%", left: "0px", transform: "translateX(-195%)" }}
                 onClick={onClick}
             >
-                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "20px", padding: "4px" }} />
+                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "25px", padding: "4px", display: { lg: "block", md: "block", sm: "none", sx: "none" } }} />
             </div>
         );
     };
@@ -53,7 +53,7 @@ function AboutSection5() {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false
+                    dots: true
                 }
             },
             {
@@ -74,25 +74,33 @@ function AboutSection5() {
     };
     return (
         <>
-            <Container maxWidth={"lg"} sx={{ border: "none" ,paddingBottom:"100px"}}>
-            <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
+            <Container maxWidth={"lg"} sx={{ border: "none", paddingBottom: "100px" }}>
+                {/* <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
                     <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Management Team</Typography>
+                </Box> */}
+                <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
+                    <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600" }}>
+                        Management Team
+                        <span class="b1"></span>
+                        <span class="b2"></span>
+                        <span class="b3"></span>
+                        <span class="b4"></span>
+                    </button>
                 </Box>
                 <Box sx={{ display: "flex", flexDirection: { xs: 'column', md: 'row' }, justifyContent: "center" }}>
                     <Box sx={{ width: { xs: "100%", md: "70%" } }}>
                         <Box sx={{ width: "100%", marginTop: "50px" }}>
                             <Grid item xs={12}>
-                                <Slider {...settings} style={{columnGap: "100px"}}>
-                                    <Box >
-                                        <img src={sliderImg1} alt="lisa"  style={{objectFit: "contain"}} />
+                                <Slider {...settings} style={{ columnGap: "100px" }}>
+                                    <Box sx={{ border: "5px solid #fff" }}>
+                                        <img src={sliderImg1} alt="lisa" />
                                     </Box>
-                                    <Box >
-                                        <img src={sliderImg2} alt="alex"   />
+                                    <Box sx={{ border: "5px solid #fff" }}>
+                                        <img src={sliderImg2} alt="alex" />
                                     </Box>
                                 </Slider>
                             </Grid>
                         </Box>
-
                     </Box>
                 </Box>
             </Container>

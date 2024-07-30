@@ -10,13 +10,13 @@ function AboutSection2() {
     return (
         <div>
             <Container maxWidth={"xl"}>
-            
+
                 <Box sx={{ display: "flex", fontFamily: "Poppins", justifyContent: "center" }}>
                     <Typography sx={{ fontSize: "19px" }}>Home/</Typography>
                     <Typography sx={{ color: "#7b8aa0", fontSize: "19px" }}>About Us</Typography>
                 </Box>
 
-                <Box sx={{display:{lg:"block",md:"block",sm:"none",xs:"none"}}}>
+                <Box sx={{ display: { lg: "block", md: "block", sm: "none", xs: "none" } }}>
                     <Box>
                         <img src={star1} alt="" style={{ width: "2.5%", padding: "4px 0 0px 0" }} />
                     </Box>
@@ -25,8 +25,17 @@ function AboutSection2() {
                     </Box>
                 </Box>
 
-                <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
+                {/* <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
                     <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Faith. Honesty. Transparency.</Typography>
+                </Box> */}
+                <Box sx={{ textAlign: "center", margin: "30px 0 20px 0" }}>
+                    <button class="border-el-btn" style={{ fontSize: "22px", fontWeight: "600" }}>
+                        Faith. Honesty. Transparency.
+                        <span class="b1"></span>
+                        <span class="b2"></span>
+                        <span class="b3"></span>
+                        <span class="b4"></span>
+                    </button>
                 </Box>
 
                 <Box sx={{ justifyContent: "center", display: "flex" }}>
@@ -37,7 +46,7 @@ function AboutSection2() {
                     </Box>
                 </Box>
 
-                <Box sx={{ textAlign: "end", display:{lg:"block",md:"block",sm:"none",xs:"none"}}}>
+                <Box sx={{ textAlign: "end", display: { lg: "block", md: "block", sm: "none", xs: "none" } }}>
                     <Typography>
                         <img src={star3} alt="" style={{ width: "2%", padding: "4px 0 0px 0" }} />
                     </Typography>
