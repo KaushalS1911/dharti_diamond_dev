@@ -9,7 +9,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* ======================borderoneside======================== */
+/* ======================borderoneside-white======================== */
 .buttonBorder {
   color: white;
   outline: none;
@@ -30,7 +30,6 @@ code {
   position: absolute;
   background: white;
   transition: .5s;
-  box-shadow: 1px 1px 20px white;
 }
 
 .buttonBorder span:nth-child(1) {
@@ -46,7 +45,7 @@ code {
   width: 30%;
   height: 1px;
 }
-/* ================================borderboth=================== */
+/* ================================borderboth-white=================== */
 button {
   color: #000;
   outline: none;
@@ -67,7 +66,6 @@ button span {
   position: absolute;
   background: #000;
   transition: .5s;
-  box-shadow: 1px 1px 20px #000;
 }
 
 button span:nth-child(1) {
@@ -95,4 +93,92 @@ button span:nth-child(4) {
   right: -6px;
   width: 30%;
   height:2px;
+}
+/* =======================blackborderbutton====================================== */
+
+.buttonBorderBlack {
+  color: #000;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  padding: 1em 1em;
+  position: relative;
+  background: none;
+  cursor: pointer;
+}
+
+.buttonBorderBlack:active {
+  transform: scale(.98);
+  box-shadow: .1px .1px 2px #000;
+}
+
+.buttonBorderBlack span {
+  position: absolute;
+  background: #000;
+  transition: .5s;
+}
+
+.buttonBorderBlack span:nth-child(1) {
+  top: -2px;
+  left: 0;
+  width: 1px;
+  height: 91%;
+}
+
+.buttonBorderBlack span:nth-child(2) {
+  top: 15px;
+  left: -27px;
+  width: 20%;
+  height: 1px;
+}
+
+/* ===============================border-both-black====================== */
+
+.btns {
+  color: #FFF;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  padding: 1em 2em;
+  position: relative;
+  background: none;
+  cursor: pointer;
+}
+
+.btns:active {
+  transform: scale(.98);
+  box-shadow: .1px .1px 2px #FFF;
+}
+
+.btns span {
+  position: absolute;
+  background: #FFF;
+  transition: .5s;
+}
+
+.btns span:nth-child(1) {
+  top: -7px;
+  left: 0;
+  width: 1px;
+  height: 103%;
+}
+
+.btns span:nth-child(2) {
+  top: 1px;
+  left: -9px;
+  width: 27%;
+  height:1px;
+}
+.btns span:nth-child(3) {
+  bottom: -9;
+  right: 3px;
+  width: 1px;
+  height: 97%;
+}
+
+.btns span:nth-child(4) {
+  bottom: -5px;
+  right: -6px;
+  width: 30%;
+  height:1px;
 }

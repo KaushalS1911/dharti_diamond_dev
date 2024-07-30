@@ -3,8 +3,7 @@ import star1 from "../../assests/images/global/star 1.png";
 import star2 from "../../assests/images/global/star 2.png";
 import { Box, Container, Grid, Typography } from '@mui/material';
 import card1 from "../../assests/images/products/card1.png";
-import card2 from "../../assests/images/products/card2.png";
-import card3 from "../../assests/images/products/card3.png";
+import bg from '../../assests/images/global/background-image.png'
 
 function ProductSection() {
   return (
@@ -57,23 +56,23 @@ function ProductSection() {
             sx={{display: "flex", justifyContent: "center", marginTop:"20px"}}
           >
             <Grid item lg={6} md={6} sm={12} xs={12} sx={{order:{lg:"1",md:"1",sm:"1",xs:"1"}}}>
-              <Box sx={{ padding: "10px", textAlign:"start"}}>
+              <Box sx={{ padding: "10px", textAlign:"start",backgroundImage:`url(${bg})`, backgroundPosition:"center", backgroundSize:"cover"}}>
 
-                <div class="border-el-btn buttonBorder" style={{color:"#000"}}>
-                  <div style={{paddingTop:"13px", fontWeight:"600", fontSize:"20px"}}>
+                <div class="border-el-btn buttonBorderBlack" style={{color:"#000"}}>
+                  <div style={{paddingTop:"13px", fontWeight:"600", fontSize:"22px"}}>
                     Product
 
                     <span class="b1"></span>
                     <span class="b2"></span>
-                    <Typography sx={{fontSize:"15px"}}>We Offer BREADTH, BEAUTY And BRILLIANCE</Typography>
+                    <Typography sx={{fontSize:"15px", fontWeight:"600"}}>We Offer BREADTH, BEAUTY And BRILLIANCE</Typography>
                   </div>
                   </div>
 
-                <Typography sx={{padding:"17px", fontSize:"13px"}}>
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                <Typography sx={{padding:"15px", fontSize:"12px", color:"#9EA8B9", lineHeight:"20px"}}>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
                 </Typography>
-                <Typography sx={{padding:"17px", fontSize:"13px"}}>
-                This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line insection 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et  Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                <Typography sx={{padding:"15px", fontSize:"12px", color:"#9EA8B9", lineHeight:"21px", display:{lg:"block", md:"none", sm:"none", xs:"none"}}}>
+                This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et  Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
                 </Typography>
               </Box>
             </Grid>
@@ -88,6 +87,7 @@ function ProductSection() {
             </Grid>
           </Grid>
             </Box>
+          
         </Container>
        </Box>
     </div>
