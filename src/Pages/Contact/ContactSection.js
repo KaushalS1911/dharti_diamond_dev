@@ -23,8 +23,17 @@ function ContactSection() {
 
       <Container>
 
-        <Box sx={{ textAlign: "center", padding: "0 0 40px 0" }}>
+        {/* <Box sx={{ textAlign: "center", padding: "0 0 40px 0" }}>
           <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Get in Touch</Typography>
+        </Box> */}
+        <Box sx={{ textAlign: "center", padding: "0 0 55px 0" }}>
+          <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600", color: "#000" }}>
+            Get in Touch
+            <span class="b1"></span>
+            <span class="b2"></span>
+            <span class="b3"></span>
+            <span class="b4"></span>
+          </button>
         </Box>
 
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} spacing={2} sx={{ display: "flex", justifyContent: "center" }}>
@@ -54,7 +63,7 @@ function ContactSection() {
             </Box>
 
             <Box sx={{ justifyContent: "center", display: "flex", padding: "27px 0" }}>
-              <Box sx={{ backgroundColor: "#73829a", width: {lg:"40%",md:"45%",sm:"45%",xs:"60%"}, padding: "7px 0", color: "#fff", textAlign: "center" }}>
+              <Box sx={{ backgroundColor: "#73829a", width: { lg: "40%", md: "45%", sm: "45%", xs: "60%" }, padding: "7px 0", color: "#fff", textAlign: "center" }}>
                 Lets Connect
               </Box>
             </Box>
@@ -63,21 +72,21 @@ function ContactSection() {
 
           <Grid item xs={12} lg={5} md={6} sm={12}>
 
-            <Box sx={{ display: {lg:"flex",md:"flex",sm:"flex",xs:"block"}, padding:"12px 14px", alignItems: "center", backgroundColor: "#fff" }}>
+            <Box sx={{ display: { lg: "flex", md: "flex", sm: "flex", xs: "block" }, padding: "12px 14px", alignItems: "center", backgroundColor: "#fff" }}>
               <Typography sx={{ backgroundColor: "#F9F9F9" }}><EmailOutlinedIcon sx={{ fontSize: "25px", marginLeft: "10px" }}></EmailOutlinedIcon></Typography>
               <Box sx={{ fontFamily: "Poppins" }}>
                 <Typography sx={{ marginLeft: "10px", fontWeight: "700" }}>Mail Here</Typography>
                 <Typography sx={{ color: "#646464", marginLeft: "10px", fontSize: "16px" }}>dhartidiamonds@gmail.com</Typography>
               </Box>
             </Box>
-            <Box sx={{ display: {lg:"flex",md:"flex",sm:"flex",xs:"block"}, padding: "12px 14px", alignItems: "center", backgroundColor: "#fff" }} mt={1}>
+            <Box sx={{ display: { lg: "flex", md: "flex", sm: "flex", xs: "block" }, padding: "12px 14px", alignItems: "center", backgroundColor: "#fff" }} mt={1}>
               <Typography sx={{ backgroundColor: "#F9F9F9" }}><LocationOnOutlinedIcon sx={{ fontSize: "27px", marginLeft: "10px" }}></LocationOnOutlinedIcon></Typography>
               <Box sx={{ fontFamily: "Poppins" }}>
                 <Typography sx={{ marginLeft: "10px", fontWeight: "700" }}>Visit Us</Typography>
                 <Typography sx={{ color: "#646464", marginLeft: "10px", fontSize: "14px" }}>PLOT NO.3&5, Ashwini Kumar Rd, opp. PARVATIBAI LEPROSY HOSPITAL PATEL COLONY, Ankur Society, Vishnu Nagar, Kodiyar Nagar, Surat, Gujarat 395008</Typography>
               </Box>
             </Box>
-            <Box sx={{ display:{lg:"flex",md:"flex",sm:"flex",xs:"block"} , padding: "12px 14px", alignItems: "center", backgroundColor: "#fff" }} mt={1}>
+            <Box sx={{ display: { lg: "flex", md: "flex", sm: "flex", xs: "block" }, padding: "12px 14px", alignItems: "center", backgroundColor: "#fff" }} mt={1}>
               <Typography sx={{ backgroundColor: "#F9F9F9" }}><CallOutlinedIcon sx={{ fontSize: "25px", marginLeft: "10px" }}></CallOutlinedIcon></Typography>
               <Box sx={{ fontFamily: "Poppins" }}>
                 <Typography sx={{ marginLeft: "10px", fontWeight: "700" }}>Call Here</Typography>

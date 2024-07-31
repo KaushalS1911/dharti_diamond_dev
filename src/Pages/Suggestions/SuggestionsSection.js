@@ -10,18 +10,27 @@ function SuggestionsSection() {
         <div style={{ backgroundColor: "#F5F4F3", padding: "0 0 20px 0" }}>
             <Container maxWidth={"xl"}>
 
-                
-            <Box sx={{ display: { lg: "block", md: "none", sm: "none", xs: "none" } }}>
-                        <Box>
-                            <img src={star1} alt="" style={{ width: "2%", padding: "4px 0 0px 0", transform: "translateY(850%)" }} />
-                        </Box>
-                        <Box >
-                            <img src={star2} alt="" style={{ width: "3%", margin: "0 0 10px 10px", transform: "translateY(620%)" }} />
-                        </Box>
-                    </Box>
 
-                <Box sx={{ textAlign: "center", padding: "0 0 40px 0" }}>
+                <Box sx={{ display: { lg: "block", md: "none", sm: "none", xs: "none" } }}>
+                    <Box>
+                        <img src={star1} alt="" style={{ width: "2%", padding: "4px 0 0px 0", transform: "translateY(850%)" }} />
+                    </Box>
+                    <Box >
+                        <img src={star2} alt="" style={{ width: "3%", margin: "0 0 10px 10px", transform: "translateY(620%)" }} />
+                    </Box>
+                </Box>
+
+                {/* <Box sx={{ textAlign: "center", padding: "0 0 40px 0" }}>
                     <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Suggestions</Typography>
+                </Box> */}
+                <Box sx={{ textAlign: "center", padding: "0 0 50px 0" }}>
+                    <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600", color: "#000" }}>
+                        Suggestions
+                        <span class="b1"></span>
+                        <span class="b2"></span>
+                        <span class="b3"></span>
+                        <span class="b4"></span>
+                    </button>
                 </Box>
 
 
@@ -62,7 +71,7 @@ function SuggestionsSection() {
                     </Grid>
 
                     <Box sx={{ justifyContent: "center", display: "flex", padding: "27px 0" }}>
-                        <Box sx={{ backgroundColor: "#73829a", width: {lg:"22%",md:"30%",sm:"30%",xs:"50%"}, padding: {lg:"7px 0",md:"7px 0",sm:"7px 0",xs:"7px 0"}, color: "#fff", textAlign: "center" }}>
+                        <Box sx={{ backgroundColor: "#73829a", width: { lg: "22%", md: "30%", sm: "30%", xs: "50%" }, padding: { lg: "7px 0", md: "7px 0", sm: "7px 0", xs: "7px 0" }, color: "#fff", textAlign: "center" }}>
                             Send Suggestion
                         </Box>
                     </Box>

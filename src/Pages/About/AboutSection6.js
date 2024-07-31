@@ -19,7 +19,7 @@ function AboutSection6() {
                                 <Typography sx={{ fontWeight: "600", fontSize: "26px", color: "#fff" }}>Our Values</Typography>
                             </Box> */}
                             <Box sx={{ textAlign: "center", padding: "60px 0 30px 0" }}>
-                                <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600", color: "#fff" }}>
+                                <button className='borderLine' style={{ fontSize: "26px", fontWeight: "600", color: "#fff" }}>
                                     Our Values
                                     <span class="b1"></span>
                                     <span class="b2"></span>
