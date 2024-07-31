@@ -60,11 +60,11 @@ Manufature & Explore
             </Box>
 
           <Box sx={{ width: "100%" }}>
-            <Typography sx={{ color: "#73829a" }} fontSize={"12px"}>
+            <Typography sx={{ color: "#73829a",textAlign:"center" }} fontSize={"12px"}>
               Dharti Diamonds is a multifaceted organisation for diamond and
               jewellery
             </Typography>
-            <Typography sx={{ color: "#73829a" }} fontSize={"12px"}>
+            <Typography sx={{ color: "#73829a" ,textAlign:"center"}} fontSize={"12px"}>
               {" "}
               manufacturing, exporting, wholesaling, and retailing.
             </Typography>

@@ -9,8 +9,8 @@ function ConciergeSection1() {
     <Box sx={{backgroundColor:"#2C3440"}}>
         <Container>
             <Box>
-            <Box sx={{ textAlign: "center", margin: "30px 0 0 0", marginTop:"40px", paddingTop:"50px"}}>
-            <button class="btns" style={{fontSize:"22px", fontWeight:"600"}}>
+            <Box sx={{ textAlign: "center", paddingTop:"50px"}}>
+            <button class="btns" style={{fontSize:"22px", fontWeight:"600", color:"#FFF"}}>
               Dharti Concierge Services
                 <span class="b1"></span>
                 <span class="b2"></span>
