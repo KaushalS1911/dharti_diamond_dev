@@ -7,10 +7,15 @@ import AboutSection6 from '../Pages/About/AboutSection6'
 import AboutSection7 from '../Pages/About/AboutSection7'
 import AboutSection8 from '../Pages/About/AboutSection8'
 import AboutSection9 from '../Pages/About/AboutSection9'
+import Header from "./global/Header";
+import HeroSection from "./global/HeroSection";
+import Footer from "./global/Footer";
 
 function About() {
   return (
     <div>
+        <Header/>
+        <HeroSection/>
       <AboutSection2 />
       <AboutSection3 />
       <AboutSection4 />
@@ -19,6 +24,7 @@ function About() {
       <AboutSection7 />
       <AboutSection8 />
       <AboutSection9 />
+      <Footer/>
     </div>
   )
 }

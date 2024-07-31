@@ -10,7 +10,7 @@ import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 
 function ContactSection() {
   return (
-    <div style={{ backgroundColor: "#F9F9F9", padding: "50px" }}>
+    <div style={{ backgroundColor: "#F9F9F9", padding: "50px 0 0 0" }}>
 
       <Box sx={{ display: { lg: "block", md: "none", sm: "none", xs: "none" } }}>
         <Box>

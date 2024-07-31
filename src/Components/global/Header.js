@@ -10,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';  // Import CloseIcon
 import logo from '../../assets/images/Home/logo.png';
 
+
 function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -40,7 +41,7 @@ function Header() {
             <Box sx={{ display: { xs: 'none', md: 'flex' }, padding: "10px", cursor: "pointer" }}>
               <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
                 color: "white"
-              }}}>Home</Typography>
+              }}} onClick={() => navigate("/")}>Home</Typography>
               <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
                 color: "white"
               }}}>About</Typography>
