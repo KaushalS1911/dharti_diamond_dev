@@ -21,7 +21,7 @@ function Letest() {
                 style={{ position: "absolute", top: "50%", right: "30px", transform: "translateX(300%)" }}
                 onClick={onClick}
             >
-                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "25px", padding: "4px" }} />
+                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "25px", padding: "4px",display:{xs:"none"} }} />
             </div>
         );
     };
@@ -33,7 +33,7 @@ function Letest() {
                 style={{ position: "absolute", top: "50%", left: "0px", transform: "translateX(-195%)" }}
                 onClick={onClick}
             >
-                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "25px", padding: "4px" }} />
+                <KeyboardDoubleArrowRightIcon sx={{ color: "#fff", backgroundColor: "#8e99ad", borderRadius: "50%", fontSize: "25px", padding: "4px" ,display:{xs:"none"} }} />
             </div>
         );
     };

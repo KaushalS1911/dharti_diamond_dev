@@ -1,7 +1,13 @@
 
+
+
+
+
+
 import React, { useState } from 'react';
 import { Box, Container, Typography, Drawer, IconButton, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';  // Import CloseIcon
 import logo from '../../assets/images/Home/logo.png';
 
 function Header() {
@@ -31,24 +37,24 @@ function Header() {
             >
               <MenuIcon />
             </IconButton>
-            <Box sx={{ display: { xs: 'none', md: 'flex' }, padding: "10px",cursor:"pointer" }}>
-              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600","&:hover":{
-                color:"white"
+            <Box sx={{ display: { xs: 'none', md: 'flex' }, padding: "10px", cursor: "pointer" }}>
+              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
+                color: "white"
               }}}>Home</Typography>
-              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600" ,"&:hover":{
-                color:"white"
+              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
+                color: "white"
               }}}>About</Typography>
-              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600" ,"&:hover":{
-                color:"white"
+              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
+                color: "white"
               }}}>Diamond</Typography>
-              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600","&:hover":{
-                color:"white"
-              } }}>Product</Typography>
-              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600","&:hover":{
-                color:"white"
-              } }}>Contact Us</Typography>
+              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
+                color: "white"
+              }}}>Product</Typography>
+              <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
+                color: "white"
+              }}}>Contact Us</Typography>
             </Box>
-            <Box sx={{ display: { xs: 'none', md: 'block' }, width: "10%", border: "solid 1px white", whiteSpace: "nowrap", color: "white",cursor:"pointer" }}>
+            <Box sx={{ display: { xs: 'none', md: 'block' }, width: "10%", border: "solid 1px white", whiteSpace: "nowrap", color: "white", cursor: "pointer" }}>
               <Typography sx={{ fontSize: "12px", padding: "6px" }}>Book Appointment</Typography>
             </Box>
           </Box>
@@ -60,11 +66,16 @@ function Header() {
         onClose={toggleDrawer(false)}
       >
         <Box
-          sx={{ width: 250 }}
+          sx={{ width: 350 }}
           role="presentation"
           onClick={toggleDrawer(false)}
           onKeyDown={toggleDrawer(false)}
         >
+          <Box sx={{ display: "flex", justifyContent: "flex-end", padding: "10px" }}>
+            <IconButton onClick={toggleDrawer(false)}>
+              <CloseIcon />
+            </IconButton>
+          </Box>
           <List>
             {['Home', 'About', 'Diamond', 'Product', 'Contact Us'].map((text, index) => (
               <ListItem button key={text}>
@@ -82,4 +93,7 @@ function Header() {
 }
 
 export default Header;
+
+
+
 
