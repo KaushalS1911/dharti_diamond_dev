@@ -47,7 +47,7 @@ function ProductSection2() {
         <Container maxWidth={"md"}>
             <Box>
             <Box sx={{ textAlign: "center", margin: "30px 0 0 0" }}>
-            <button class="btns" style={{fontSize:"22px", fontWeight:"600"}}>
+            <button class="btns" style={{fontSize:"22px", fontWeight:"600", color:"#FFF"}}>
               Product Profile
                 <span class="b1"></span>
                 <span class="b2"></span>

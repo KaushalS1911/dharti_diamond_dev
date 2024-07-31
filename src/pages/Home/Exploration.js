@@ -12,8 +12,11 @@ function Exploration() {
   return (
     <div>
       <Box sx={{ marginTop: "-50px", backgroundColor: "#2c3440"}}>
+          <Typography sx={{textAlign:"end",transform:"translateY(100%)"}}>
+              <img src={star6} alt=""  style={{width:"5%"}}/>
+          </Typography>
         <Container maxWidth={"xl"}>
-          <Box sx={{ paddingTop: "100px" }}>
+          <Box sx={{ paddingTop: "60px" }}>
             <Grid
               container
               spacing={2}
@@ -53,11 +56,7 @@ function Exploration() {
                 </Box>
               </Grid>
               <Grid item xs={1.5}>
-                <Box>
-                  <Typography>
-                    <img src={star6} alt=""  style={{width:"50%"}}/>
-                  </Typography>
-                </Box>
+
               </Grid>
             </Grid>
           </Box>
@@ -208,7 +207,7 @@ function Exploration() {
                   >
                     Upon finding the best location and authorised mine, where high-quality diamonds are in abundance, mining is done. These mining activities are conducted with a strong emphasis on ethical and responsible practices. Various techniques are used to mine diamonds, but we source our diamonds only from companies that share our ethics around employee welfare and sustainability. As part of the sight-holder system, diamond companies can purchase the best-quality diamonds.
                   </Typography>
-                  <Typography sx={{textAlign:"end"}}><img src={start8} alt="" /></Typography>
+
                 </Box>
               </Grid>
             </Grid>

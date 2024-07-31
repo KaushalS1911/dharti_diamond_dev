@@ -108,8 +108,8 @@ function Letest() {
                 </Box>
             </Container>
            <Typography sx={{textAlign:"staRT"}}>
-           <img src={star15} alt="" />
-            <img src={star14} alt="" />
+           <img src={star14} alt=""  style={{width:"10%"}}/>
+            <img src={star15} alt="" style={{width:"2.5%"}}/>
            </Typography>
     </Box>
       
