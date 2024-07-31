@@ -1,17 +1,21 @@
 import React from 'react'
-import Manufature from '../pages/Home/Manufature'
-import Exploration from '../pages/Home/Exploration'
-import Letest from '../pages/Home/Letest'
-import Round_diamond from '../pages/Home/Round_diamond'
+import Exploration from '../Pages/Home/Exploration'
+import Letest from '../Pages/Home/Letest'
+import Round_diamond from '../Pages/Home/Round_diamond'
 import Footer from './global/Footer'
-
+import Manufature from "../Pages/Home/Manufature";
+import Header from '../Components/global/Header'
+import HeroSection from '../Components/global/HeroSection'
+import AboutSection9 from '../Pages/About/AboutSection9'
 
 function Home() {
   return (
     <div>
+        <Header/>
+        <HeroSection/>
       <Manufature/>
       <Exploration/>
-     
+     <AboutSection9/>
       <Letest/>
       <Round_diamond/>
       <Footer/>
