@@ -99,8 +99,7 @@ function ConciergeSection2() {
             </Box>
 
             {/* ===========================================================card-2====================================== */}
-            <Box
-              sx={{
+            <Box sx={{
                 justifyContent: 'center',
                 display: 'flex',
                 alignItems: 'center',
