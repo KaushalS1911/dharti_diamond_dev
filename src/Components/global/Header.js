@@ -9,10 +9,12 @@ import { Box, Container, Typography, Drawer, IconButton, List, ListItem, ListIte
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';  // Import CloseIcon
 import logo from '../../assets/images/Home/logo.png';
+import {useNavigate} from "react-router-dom";
 
 
 function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const navigate = useNavigate()
 
   const toggleDrawer = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
