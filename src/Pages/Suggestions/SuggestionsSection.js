@@ -23,7 +23,7 @@ function SuggestionsSection() {
                 {/* <Box sx={{ textAlign: "center", padding: "0 0 40px 0" }}>
                     <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Suggestions</Typography>
                 </Box> */}
-                <Box sx={{ textAlign: "center", padding: "0 0 50px 0" }}>
+                <Box sx={{ textAlign: "center", padding: {lg:"0 0 50px 0",md:"30px 0 50px 0",sm:"30px 0 50px 0",xs:"30px 0 50px 0"} }}>
                     <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600", color: "#000" }}>
                         Suggestions
                         <span class="b1"></span>

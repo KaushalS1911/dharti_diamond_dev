@@ -125,7 +125,7 @@ function AboutSection9() {
     ]
     return (
         <div>
-            <Container sx={{ padding: "50px 0" }}>
+            <Container sx={{ padding: "85px 0 0 0" }}>
                 {/* <Box sx={{ textAlign: "center", padding: "40px 0 40px 0" }}>
                     <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Dharti Pillars of Strength</Typography>
                 </Box> */}

@@ -10,7 +10,7 @@ import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 
 function ContactSection() {
   return (
-    <div style={{ backgroundColor: "#F9F9F9", padding: "50px 0 0 0" }}>
+    <div style={{ backgroundColor: "#F9F9F9",}}>
 
       <Box sx={{ display: { lg: "block", md: "none", sm: "none", xs: "none" } }}>
         <Box>
@@ -26,7 +26,7 @@ function ContactSection() {
         {/* <Box sx={{ textAlign: "center", padding: "0 0 40px 0" }}>
           <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Get in Touch</Typography>
         </Box> */}
-        <Box sx={{ textAlign: "center", padding: "0 0 55px 0" }}>
+        <Box sx={{ textAlign: "center", padding: {lg:"0 0 70px 0",md:"30px 0 50px 0",sm:"30px 0 40px 0",xs:"30px 0 40px 0"}}}>
           <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600", color: "#000" }}>
             Get in Touch
             <span class="b1"></span>
@@ -42,19 +42,19 @@ function ContactSection() {
 
             <Box sx={{ display: { lg: "flex", md: "flex", sm: "block", xs: "block" }, justifyContent: "space-between" }}>
               <Box sx={{ padding: { lg: "0 0", md: "0 0", sm: "12px 0", xs: "12px 0" } }}>
-                <input type="text" placeholder='Name' style={{ padding: "13px 95px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
+                <input type="text" placeholder='Name' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
               </Box>
               <Box>
-                <input type="text" placeholder='Email Adderess' style={{ padding: "13px 95px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
+                <input type="text" placeholder='Email Adderess' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
               </Box>
             </Box>
 
             <Box sx={{ display: { lg: "flex", md: "flex", sm: "block", xs: "block" }, justifyContent: "space-between", padding: { lg: "12px 0", md: "12px 0", sm: "12px 0" } }}>
               <Box sx={{ padding: { lg: "0 0", md: "0 0", sm: "12px 0", xs: "12px 0" } }}>
-                <input type="text" placeholder='Company Name' style={{ padding: "13px 95px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
+                <input type="text" placeholder='Company Name' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
               </Box>
               <Box>
-                <input type="text" placeholder='Mobile' style={{ padding: "13px 95px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
+                <input type="text" placeholder='Mobile' style={{ padding: "13px 122px 13px 10px", width: "100%", borderRadius: "0", outline: "none", border: "none" }} />
               </Box>
             </Box>
 

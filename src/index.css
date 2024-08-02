@@ -264,3 +264,8 @@ button span {
   width: 30%;
   height:1px;
 }
+
+/*======slider=====*/
+.slick-next:before {
+  content: none !important;
+}

@@ -78,7 +78,7 @@ function AboutSection5() {
                 {/* <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
                     <Typography sx={{ fontWeight: "600", fontSize: "26px" }}>Management Team</Typography>
                 </Box> */}
-                <Box sx={{ textAlign: "center", margin: "70px 0 0 0" }}>
+                <Box sx={{ textAlign: "center", margin: "95px 0 0 0" }}>
                     <button class="border-el-btn" style={{ fontSize: "26px", fontWeight: "600" }}>
                         Management Team
                         <span class="b1"></span>

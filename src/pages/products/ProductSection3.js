@@ -13,22 +13,25 @@ function ProductSection3() {
             <Box>
             <Box
               sx={{
-                justifyContent: 'center',
+                justifyContent: {lg:"center",md:"center",sm:"center",xs:"center"},
                 display: 'flex',
                 alignItems: 'center',
-                padding: { lg: '55px 0', md: '20px 0', sm: '20px', xs: '20px 0' }
+                padding: { lg: '120px 0 40px 0', md: '20px 0', sm: '20px', xs: '20px 0' }
               }}
             >
               <Box
                 sx={{
                   position: 'relative',
-                  transform: { lg: 'translateX(10%)' }
+                  transform: { lg: 'translateX(20%)',sm:"translateX(0)" ,xs:"translateX(0)"},
+                    textAlign:"center",
+
                 }}
               >
                 <img
                   src={card2}
                   alt=""
-                  style={{ width: '100%', maxWidth: '550px' }}
+                  style={{ width: '100%', maxWidth: '650px',textAlign:"center" }}
+                  
                 />
 
                 <Box
@@ -43,8 +46,8 @@ function ProductSection3() {
                     sx={{
                       backgroundColor: '#c5d1e4',
                       color: '#000',
-                      padding: '60px 60px 40px 60px',
-                      width: '140%',
+                      padding: '50px 60px 40px 60px',
+                      width: '200%',
                       textAlign: 'start'
                     }}
                   >
@@ -53,13 +56,13 @@ function ProductSection3() {
                         fontSize: '25px',
                         fontWeight: '600',
                         color: '#000',
-                        marginBottom: '20px'
+                        marginBottom: '10px'
                       }}
                     >
                       Parcel & Assortments
                     </Typography>
                     <Typography sx={{fontSize:"15px", fontWeight:"600"}}>Contrary to popular belief, Lorem Ipsum is not simply random text.</Typography>
-                    <Box sx={{ color: '#000' }}>
+                    <Box sx={{ color: '#000',margin:"14px 0 0 30px",lineHeight:"27px" }} >
                      <ul>
                         <li>Microscope assorted parcels</li>
                         <li>Calibrated diamond parcel services</li>
@@ -72,7 +75,7 @@ function ProductSection3() {
 
                 <Box
                   sx={{
-                    display: { lg: 'none', md: 'flex', sm: 'block', xs: 'block' },justifyContent:{md:"center", sm:"center"}
+                    display: { lg: 'none', md: 'flex', sm: 'flex', xs: 'flex' },justifyContent:{md:"center", sm:"center",xs:"center"}
                   }}
                 >
                     <Box
@@ -80,8 +83,10 @@ function ProductSection3() {
                         backgroundColor: '#c5d1e4',
                         color: '#000',
                         padding: '60px 60px 40px 60px',
-                        width:{lg:"140%", md:"70%", sm:"80%"}, 
-                        textAlign: 'start'
+                        width:{lg:"140%", md:"100%", sm:"100%"},
+                        textAlign: 'start',
+
+
                     }}
                   >
                     <Typography
@@ -114,14 +119,14 @@ function ProductSection3() {
                 justifyContent: 'center',
                 display: 'flex',
                 alignItems: 'center',
-                marginTop:{lg:"70px", md:"40px", sm:"10px", sm:"10px"},
-                padding: { lg: '40px 0', md: '20px 0', sm: '20px', xs: '20px 0' }
+                marginTop:{lg:"70px", md:"40px", sm:"10px"},
+                padding: { lg: '100px 0 250px 0', md: '20px 0', sm: '20px', xs: '20px 0' }
               }}
             >
               <Box
                 sx={{
                   position: 'relative',
-                  transform: { lg: 'translateX(-20%)', md: 'translateX(0)', sm: 'translateX(0)', xs: 'translateX(0)' },
+                  transform: { lg: 'translateX(-22%)', md: 'translateX(0)', sm: 'translateX(0)', xs: 'translateX(0)' },
                   display: { lg: 'start', md: 'flex', sm: 'flex', xs: 'flex' },
                   justifyContent: { lg: 'start', md: 'center', sm: 'center', xs: 'center' }
                 }}
@@ -129,17 +134,17 @@ function ProductSection3() {
                 <img
                   src={card3}
                   alt=""
-                  style={{ width: '100%', maxWidth: '550px' }}
+                  style={{ width: '100%', maxWidth: '650px' }}
                 />
 
                 <Box
                   sx={{
                     position: 'absolute',
-                    top: '75%',
-                    right: '-50%',
+                    top: '63%',
+                    right: '-40%',
                     textAlign: 'start',
                     display: { lg: 'block', md: 'none', sm: 'none', xs: 'none' },
-                    width: '100%'
+                    width: '85%'
                   }}
                 >
                   <Box
@@ -147,7 +152,7 @@ function ProductSection3() {
                       
                       backgroundColor: '#c5d1e4',
                       color: '#000',
-                      padding:"50px 50px 30px 50px"
+                      padding:"35px 10px 30px 50px"
                     }}
                   >
                     <Typography
@@ -159,7 +164,7 @@ function ProductSection3() {
                     >
                       Other Services
                     </Typography>
-                    <Typography sx={{ fontSize: '15px', color: '#000' }}>
+                    <Typography sx={{ fontSize: '15px', color: '#000', marginTop:"15px",marginLeft:"25px",lineHeight:"25px"}}>
                      <ul>
                         <li>Bespoke quality sorting services</li>
                         <li>Customers specific product coding</li>
@@ -177,7 +182,7 @@ function ProductSection3() {
             <Box
               sx={{
                 textAlign: 'start',
-                display: { lg: 'none', md: 'flex', sm: 'block', xs: 'block' },
+                display: { lg: 'none', md: 'flex', sm: 'flex', xs: 'block' },
                 justifyContent:{md:"center", sm:"center"},
                 margin: '0 auto'
               }}
@@ -188,7 +193,8 @@ function ProductSection3() {
                   backgroundColor: '#c5d1e4',
                   color: '#000',
                   padding: '50px',
-                  width:{lg:"100%", md:"44%", sm:"80%"},
+                  width:{lg:"100%", md:"67%", sm:"90%"},
+
                 }}
               >
                 <Typography
