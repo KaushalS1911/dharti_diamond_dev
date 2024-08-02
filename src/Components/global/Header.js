@@ -14,7 +14,7 @@ import {useNavigate} from "react-router-dom";
 
 function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const toggleDrawer = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -46,18 +46,18 @@ function Header() {
               }}} onClick={() => navigate("/")}>Home</Typography>
               <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
                 color: "white"
-              }}}>About</Typography>
+              }}} onClick={() => navigate("/about")}>About</Typography>
               <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
                 color: "white"
-              }}}>Diamond</Typography>
+              }}} onClick={() => navigate("/diamond")}>Diamond</Typography>
               <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
                 color: "white"
-              }}}>Product</Typography>
+              }}} onClick={() => navigate("/product")}>Product</Typography>
               <Typography sx={{ paddingRight: "35px", fontSize: "13px", fontWeight: "600", "&:hover": {
                 color: "white"
-              }}}>Contact Us</Typography>
+              }}} onClick={() => navigate("/contact")}>Contact Us</Typography>
             </Box>
-            <Box sx={{ display: { xs: 'none', md: 'block' }, width: "10%", border: "solid 1px white", whiteSpace: "nowrap", color: "white", cursor: "pointer" }}>
+            <Box sx={{ display: { xs: 'none', md: 'block' }, width: {lg:"10%",md:"12%"}, border: "solid 1px white", whiteSpace: "nowrap", color: "white", cursor: "pointer" }}>
               <Typography sx={{ fontSize: "12px", padding: "6px" }}>Book Appointment</Typography>
             </Box>
           </Box>

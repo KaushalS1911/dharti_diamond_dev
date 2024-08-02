@@ -86,10 +86,10 @@ Manufature & Explore
               >
                 <Box>
                   <img src={diam_1} alt="" style={{ width: "100%" }} />
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Diamond Manufacturer &{" "}
                   </Typography>
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Exporter
                   </Typography>
                 </Box>
@@ -105,10 +105,10 @@ Manufature & Explore
               >
                 <Box>
                   <img src={diam_2} alt="" style={{ width: "100%" }} />
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Diamond Manufacturer &{" "}
                   </Typography>
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600" ,textAlign:{xs:"center"}}}>
                     Exporter
                   </Typography>
                 </Box>
@@ -124,10 +124,10 @@ Manufature & Explore
               >
                 <Box>
                   <img src={diam_3} alt="" style={{ width: "100%" }} />
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Diamond Manufacturer &{" "}
                   </Typography>
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Exporter
                   </Typography>
                 </Box>
@@ -143,10 +143,10 @@ Manufature & Explore
               >
                 <Box>
                   <img src={diam_4} alt="" style={{ width: "100%" }} />
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Diamond Manufacturer &{" "}
                   </Typography>
-                  <Typography sx={{ fontSize: "13px", fontWeight: "600" }}>
+                  <Typography sx={{ fontSize: "13px", fontWeight: "600",textAlign:{xs:"center"} }}>
                     Exporter
                   </Typography>
                 </Box>

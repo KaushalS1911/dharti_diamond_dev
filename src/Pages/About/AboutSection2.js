@@ -11,12 +11,8 @@ function AboutSection2() {
         <div>
             <Container maxWidth={"xl"}>
 
-                <Box sx={{ display: "flex", fontFamily: "Poppins", justifyContent: "center" }}>
-                    <Typography sx={{ fontSize: "19px" }}>Home/</Typography>
-                    <Typography sx={{ color: "#7b8aa0", fontSize: "19px" }}>About Us</Typography>
-                </Box>
 
-                <Box sx={{ display: { lg: "block", md: "block", sm: "none", xs: "none" } }}>
+                <Box sx={{ display: { lg: "block", md: "block", sm: "none", xs: "none" },padding:"35px 0 0 0" }}>
                     <Box>
                         <img src={star1} alt="" style={{ width: "2.5%", padding: "4px 0 0px 0" }} />
                     </Box>

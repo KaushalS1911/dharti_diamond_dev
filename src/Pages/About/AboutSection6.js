@@ -11,7 +11,7 @@ import halfStar1 from "../../assets/image/AboutImg/Half-Star-5.png"
 function AboutSection6() {
     return (
         <div>
-            <Box sx={{ backgroundColor: "#2c3440", padding: "15px 0 0 0" }}>
+            <Box sx={{ backgroundColor: "#2c3440", padding: "70px 0 0 0" }}>
                 <Container maxWidth={'lg'}>
                     <Box sx={{ justifyContent: "center", display: "flex" }}>
                         <Box sx={{ width: "45%", paddingBottom: "60px" }}>

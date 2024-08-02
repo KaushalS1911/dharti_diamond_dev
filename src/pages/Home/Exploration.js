@@ -11,7 +11,7 @@ import jewellery from '../../assets/images/Home/jewellary.png'
 function Exploration() {
   return (
     <div>
-      <Box sx={{ marginTop: "-50px", backgroundColor: "#2c3440"}}>
+      <Box sx={{ marginTop: "-60px", backgroundColor: "#2c3440",padding:"0 0 150px 0"}}>
           <Typography sx={{textAlign:"end",transform:"translateY(100%)"}}>
               <img src={star6} alt=""  style={{width:"5%"}}/>
           </Typography>
@@ -26,7 +26,7 @@ function Exploration() {
                 <Box sx={{ color: "white" }}>
                  
 
-                  <Box sx={{ textAlign: "center",marginBottom:"70px"}}>
+                  <Box sx={{ textAlign: "center",marginBottom:"20px"}}>
             <button class="border-btn" style={{fontSize:"22px", fontWeight:"600"}}>
             <Typography
                     sx={{
@@ -36,7 +36,19 @@ function Exploration() {
                     }}
                   >
                     An Epic Adventure Of a Diamond
+                <Typography
+                    sx={{
+
+                        fontWeight: "500",
+                        fontSize: "20px",
+                        textAlign:{xs:"center"}
+                    }}
+                >
+                    Rought to Retail
+                </Typography>
+
                   </Typography>
+
                 <span class="b1"></span>
                 <span class="b2"></span>
                 <span class="b3"></span>
@@ -44,15 +56,16 @@ function Exploration() {
             </button>
             </Box>
 
-                  <Typography
-                    sx={{
-                      paddingTop: "17px",
-                      fontWeight: "500",
-                      fontSize: "15px",
-                    }}
-                  >
-                    Rought to Retail
-                  </Typography>
+                  {/*<Typography*/}
+                  {/*  sx={{*/}
+
+                  {/*    fontWeight: "500",*/}
+                  {/*    fontSize: "15px",*/}
+                  {/*      textAlign:{xs:"center"}*/}
+                  {/*  }}*/}
+                  {/*>*/}
+                  {/*  Rought to Retail*/}
+                  {/*</Typography>*/}
                 </Box>
               </Grid>
               <Grid item xs={1.5}>
@@ -94,7 +107,7 @@ function Exploration() {
                       }}
                     >
                      
-                        1.Exploration
+                        Exploration
                      
                       <span class="b1"></span>
                       <span class="b2"></span>
@@ -174,7 +187,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ paddingTop: "70px", textAlign: "start" }}>
+                <Box sx={{  textAlign: "start" ,padding:{lg:"70px 0 0 50px ",xs:"none"}}}>
                   <div class="border-el-btn buttonBorder">
                     <div
                       style={{
@@ -184,7 +197,7 @@ function Exploration() {
                       }}
                     >
                      
-                        2.Mining
+                        Mining
                      
                       <span class="b1"></span>
                       <span class="b2"></span>
@@ -328,7 +341,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ textAlign: "start" ,padding:"90px",padding:{xs:"none"}}}>
+                <Box sx={{ textAlign: "start" ,padding:{lg:"90px",xs:"none"}}}>
                   <div class="border-el-btn buttonBorder"
                   >
                     <div
@@ -404,7 +417,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ textAlign: "start" ,padding:"100px",padding:{xs:"none"}}}>
+                <Box sx={{ textAlign: "start" ,padding:{lg:"100px",xs:"none"}}}>
                   <div class="border-el-btn buttonBorder"
                   >
                     <div
@@ -412,10 +425,9 @@ function Exploration() {
                         paddingTop: "13px",
                         fontWeight: "600",
                         fontSize: "20px",
-                        
                       }}
                     >
-                5. Jewellery Manufacturing
+                 Jewellery Manufacturing
                      
                       <span class="b1"></span>
                       <span class="b2"></span>
@@ -478,7 +490,7 @@ function Exploration() {
                   padding: "",
                 }}
               >
-                <Box sx={{ textAlign: "start" ,padding:"100px",padding:{xs:"none"}}}>
+                <Box sx={{ textAlign: "start" ,padding:{lg:"100px",xs:"none"}}}>
                   <div class="border-el-btn buttonBorder"
                   >
                     <div
@@ -489,7 +501,7 @@ function Exploration() {
                         
                       }}
                     >
-                6. Retailing
+                 Retailing
                      
                       <span class="b1"></span>
                       <span class="b2"></span>
