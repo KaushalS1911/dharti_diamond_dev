@@ -5,11 +5,10 @@ import star2 from "../../assests/images/global/star 2.png";
 import star3 from "../../assests/images/global/Star 3.png";
 import star4 from "../../assests/images/global/Star 4.png";
 import bg from "../../assests/images/global/background-image.png";
-import card1 from "../../assests/images/diamond/card1.jpeg";
-import card2 from '../../assests/images/diamond/card2.jpeg';
-import card3 from '../../assests/images/diamond/card3.jpeg';
-import card4 from '../../assests/images/diamond/card4.jpeg';
-
+import card_1 from '../../assets/images/diamond/card1.jpeg'
+import card_2 from '../../assets/images/diamond/card2.jpeg'
+import card_3 from '../../assets/images/diamond/card3.jpeg'
+import card_4 from '../../assets/images/diamond/card4.jpeg'
 
 function DiamondSection() {
   return (
@@ -136,7 +135,7 @@ function DiamondSection() {
             <Grid item lg={6} md={6} sm={12} xs={12}  sx={{order:{lg:"2",md:"2",sm:"2",xs:"2"}}}>
               <Box>
                 <img
-                  src={card1}
+                  src={card_1}
                   alt=""
                   style={{ width: "100%" }}
                 />
@@ -152,7 +151,7 @@ function DiamondSection() {
              <Grid item lg={6} md={6} sm={12} xs={12} border={"1px solid #000"} sx={{order:{lg:"1",md:"1",sm:"2",xs:"2"}}}>
               <Box>
                 <img
-                  src={card2}
+                  src={card_2}
                   alt=""
                   style={{ width: "100%" }}
                 />
@@ -220,7 +219,7 @@ function DiamondSection() {
             <Grid item lg={6} md={6} sm={12} xs={12}  sx={{order:{lg:"2",md:"2",sm:"2",xs:"2"}}}>
               <Box>
                 <img
-                  src={card3}
+                  src={card_3}
                   alt=""
                   style={{ width: "100%" }}
                 />
@@ -236,7 +235,7 @@ function DiamondSection() {
              <Grid item lg={6} md={6} sm={12} xs={12} border={"1px solid #000"} sx={{order:{lg:"1",md:"1",sm:"2",xs:"2"}}}>
               <Box>
                 <img
-                  src={card4}
+                  src={card_4}
                   alt=""
                   style={{ width: "100%" }}
                 />
@@ -304,7 +303,7 @@ function DiamondSection() {
             <Grid item lg={6} md={6} sm={12} xs={12}  sx={{order:{lg:"2",md:"2",sm:"2",xs:"2"}}}>
               <Box>
                 <img
-                  src={card3}
+                  src={card_3}
                   alt=""
                   style={{ width: "100%" }}
                 />
