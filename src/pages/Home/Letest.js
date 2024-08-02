@@ -76,7 +76,7 @@ function Letest() {
 
   return (
     <div>
-    <Box sx={{backgroundColor:"#2c3440",paddingTop:"40px",marginTop:"150px"}}>
+    <Box sx={{backgroundColor:"#2c3440",paddingTop:"40px"}}>
     <Container maxWidth={"lg"} sx={{ border: "none" ,paddingBottom:"100px"}}>
            
                 <Box sx={{ textAlign: "center", margin: "30px 0 0 0" }}>

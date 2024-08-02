@@ -6,7 +6,7 @@ import React from 'react'
 function ConciergeSection1() {
   return (
     <div>
-    <Box sx={{backgroundColor:"#2C3440"}}>
+    <Box sx={{backgroundColor:"#2C3440",marginTop:"-10px"}}>
         <Container>
             <Box>
             <Box sx={{ textAlign: "center", paddingTop:"50px"}}>

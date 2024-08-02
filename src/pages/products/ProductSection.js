@@ -9,19 +9,7 @@ function ProductSection() {
   return (
     <div>
        <Container maxWidth={"xl"}>
-       <Box
-              sx={{
-                display: "flex",
-                fontFamily: "Poppins",
-                justifyContent: "center",
-                marginTop:"10px"
-              }}
-            >
-              <Typography sx={{ fontSize: "17px", fontWeight:"600" }}>Home/</Typography>
-              <Typography sx={{ color: "#7b8aa0", fontSize: "17px" }}>
-                Product
-              </Typography>
-            </Box>
+
 
             <Box
               sx={{
