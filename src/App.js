@@ -3,8 +3,8 @@ import {Route, Routes} from 'react-router-dom'
 import About from './Components/About'
 import Suggestions from './Components/Suggestions'
 import Contact from './Components/Contact'
-import Diamond  from './Components/Diamond';
 
+import Diamond from "./Components/Diamond";
 import './App.css';
 import Header from './Components/global/Header';
 import HeroSection from './Components/global/HeroSection';
