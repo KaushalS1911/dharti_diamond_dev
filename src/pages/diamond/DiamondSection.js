@@ -1,14 +1,13 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import star1 from "../../assests/images/global/star 1.png";
-import star2 from "../../assests/images/global/star 2.png";
-import star3 from "../../assests/images/global/Star 3.png";
-import star4 from "../../assests/images/global/Star 4.png";
-import bg from "../../assests/images/global/background-image.png";
-import card1 from "../../assests/images/diamond/card1.jpeg";
-import card2 from '../../assests/images/diamond/card2.jpeg';
-import card3 from '../../assests/images/diamond/card3.jpeg';
-import card4 from '../../assests/images/diamond/card4.jpeg';
+import star1 from "../../assets/image/AboutImg/Star-1.png";
+import star2 from "../../assets/image/AboutImg/Star-2.png";
+import star3 from "../../assets/image/AboutImg/Star-3.png";
+import star4 from "../../assets/image/AboutImg/Star-4.png";
+import card1 from "../../assets/diamond/card 1.png";
+import card2 from '../../assets/diamond/card 2.png';
+import card3 from '../../assets/diamond/card 3.png';
+import card4 from '../../assets/diamond/card 4.png';
 
 
 function DiamondSection() {
@@ -16,7 +15,7 @@ function DiamondSection() {
     <div>
       <div>
         <Container maxWidth={"xl"}>
-          <Box sx={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" , padding:"20px 0 0 0"}}>
+          <Box>
             <Box
               sx={{
                 display: "flex",
